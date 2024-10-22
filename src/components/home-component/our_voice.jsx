@@ -13,7 +13,7 @@ export default function ourVoice() {
           />
         </div>
         <div className="md:w-1/2 p-7 md:p-auto text-center md:text-left inline-block">
-          <h1 className="after:block after:left-0 after:bottom-[5.2em] after:h-[0.4em] after:w-[40%] after:rounded-lg after:bg-yellow-500 after:z-[-10] inline-block text-[#B4020A]  text-[18px] sm:text-[25px] md:text-[30px] lg:text-[40px] font-bold">
+          <h1 className="after:block after:h-[0.4em] after:w-[40%] after:rounded-lg after:bg-yellow-500 after:z-[-10] inline-block text-[#B4020A]  text-[22px] sm:text-[25px] md:text-[30px] lg:text-[40px] font-bold">
             We Let Your Voice Be Heard
           </h1>
           <p>

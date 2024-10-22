@@ -8,7 +8,7 @@ export default function signIn() {
         className="flex text-center flex-col items-center gap-3  w-full bg-no-repeat bg-cover bg-center"
       >
         <div className="relative inline-block">
-          <h1 className="after:block after:h-[0.4em] after:w-[40%] after:rounded-lg after:bg-yellow-500  after:text-center inline-block  text-[#B4020A]  text-[20px] sm:text-[25px] md:text-[30px] lg:text-[40px] font-bold ">
+          <h1 className="after:block after:h-[0.4em] after:w-[40%] after:rounded-lg after:bg-yellow-500  after:text-center inline-block  text-[#B4020A]  text-[22px] sm:text-[25px] md:text-[30px] lg:text-[40px] font-bold ">
             Sign up for free
           </h1>
         </div>
