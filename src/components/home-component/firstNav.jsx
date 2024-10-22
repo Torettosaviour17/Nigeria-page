@@ -3,7 +3,7 @@ import { FaTwitter, FaLinkedin, FaFacebookF } from "react-icons/fa"; // Importin
 
 export default function FirstNav() {
   return (
-    <div className="bg-[#FFB313] p-2 flex justify-between px-24 items-center">
+    <div className="bg-[#FFB313] p-2 flex justify-between md:px-24 items-center">
       {/* Left Section: Button */}
       <button className="border-2 border-white text-white px-4 py-2 rounded hover:bg-white hover:text-[#FFB313] transition">
         Become a contributor
