@@ -5,7 +5,7 @@ export default function ourAim() {
     <div>
       <section className="inline md:flex justify-center gap-14 items-center w-ful md:p-10 lg:p-20">
         <div className="md:w-1/2 text-center md:text-left p-4 md:peer-auto relative inline-block">
-          <h1 className="after:block after:left-0 after:bottom-[5.2em] after:h-[0.4em] after:w-[40%] after:rounded-lg after:bg-yellow-500 after:z-[-10] inline-block  text-[#B4020A] text-[20px] sm:text-[26px] md:text-[34px] lg:text-[40px] font-bold">
+          <h1 className="after:block after:h-[0.4em] after:w-[40%] after:rounded-lg after:bg-yellow-500 after:z-[-10] inline-block  text-[#B4020A] text-[22px] sm:text-[26px] md:text-[34px] lg:text-[40px] font-bold">
             We Aim To Solve National Problem
           </h1>
           <p>
