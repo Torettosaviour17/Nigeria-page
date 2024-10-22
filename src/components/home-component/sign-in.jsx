@@ -19,7 +19,7 @@ export default function signIn() {
         </p>
         <form className="w-full p-6">
           <input
-            className="border border-[#33333380] w-[64%] px-4 py-3 rounded-md"
+            className="border border-[#33333380] w-[90%] md:w-[64%] px-4 py-3 rounded-md"
             type="text"
             name=""
             id=""
@@ -30,11 +30,11 @@ export default function signIn() {
               type="text"
               name=""
               id=""
-              className="border block md:inline w-[65%] border-[#33333380] md:w-[31%] px-4 py-3 rounded-md"
+              className="border block md:inline w-[90%] border-[#33333380] md:w-[31%] px-4 py-3 rounded-md"
               placeholder="Phone Number (+234)"
             />
             <input
-              className="border block md:inline w-[65%] border-[#33333380] md:w-[31%] px-4 py-3 rounded-md"
+              className="border block md:inline w-[90%] border-[#33333380] md:w-[31%] px-4 py-3 rounded-md"
               type="text"
               name=""
               id=""
