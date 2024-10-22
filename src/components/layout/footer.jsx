@@ -3,24 +3,24 @@ import { logo } from '../../images/index';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 p-6">
-      <div className="container md:items-center mx-auto flex flex-col md:flex-row justify-between items-start">
+    <footer className="bg-gray-100 p-9">
+      <div className="w-full md:items-center mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="w-full md:w-1/4 mb-4 md:mb-0">
           <img
             src={logo} 
             alt="Nigeria 2.0 Logo"
             className="mb-4"
           />
-          <p className="text-sm text-gray-600 pr-12">
+          <p className="text-[14px] text-gray-600 pr-12">
             This platform enables both young and old to voice their opinions and expose government corruption.
           </p>
         </div>
 
         {/* Middle Left section with Quick Links */}
         <div className="w-full md:w-1/4 mb-4 md:mb-0">
-          <h3 className="text-lg font-semibold mb-2">QUICK LINKS</h3>
+          <h3 className="text-[16px] font-semibold mb-2">QUICK LINKS</h3>
           <ul>
-            <li><a href="#home" className="text-gray-700 hover:underline">Home</a></li>
+            <li><a href="#home" className=" text-gray-700 hover:underline">Home</a></li>
             <li><a href="#health" className="text-gray-700 hover:underline">Health</a></li>
             <li><a href="#sport" className="text-gray-700 hover:underline">Sport</a></li>
             <li><a href="#politics" className="text-gray-700 hover:underline">Politics</a></li>
@@ -28,8 +28,8 @@ const Footer = () => {
         </div>
 
         {/* Middle Right section with Social Media */}
-        <div className="w-full md:w-1/4 mb-4 md:mb-0">
-          <h3 className="text-lg font-semibold mb-2">SOCIAL MEDIA</h3>
+        <div className="w-full md:w-1/4 mb-4 md:mb-0 ">
+          <h3 className="text-[16px] font-semibold mb-2">SOCIAL MEDIA</h3>
           <ul>
             <li><a href="https://facebook.com" className="text-gray-700 hover:underline">Facebook</a></li>
             <li><a href="https://twitter.com" className="text-gray-700 hover:underline">Twitter</a></li>
@@ -43,9 +43,9 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Email Address"
-              className="p-2 border border-gray-300 rounded-l mb-2 md:mb-0 md:rounded-l-none md:rounded-l"
+              className="px-2 py-1 border md:w-[70%] border-gray-300 rounded-l mb-2 md:mb-0 md:rounded-l-none "
             />
-            <button className="bg-red-600 text-white px-4 py-2 rounded md:rounded-l-none">
+            <button className="bg-red-600 text-[10px] md:w-[25%] text-white px-4 py-1 rounded md:rounded-l-none">
               SIGN UP
             </button>
           </div>
