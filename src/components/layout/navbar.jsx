@@ -3,12 +3,12 @@ import { logo } from '../../images/index.js'
 
 export default function navbar() {
   return (
-    <div className='flex justify-between px-20 p-3 items-center'>
+    <div className=' w-full flex justify-between px-5 lg:px-20 md:p-3 items-center'>
       <div>
-        <img src={logo} alt="Logo" />
+        <img className='scale-50 sm  sm:scale-75 md:scale-90 lg:scale-100 xl:scale-auto' src={logo} alt="Logo" />
       </div>
       <div>
-        <ul className='flex gap-7 '>
+        <ul className='gap-7 hidden md:flex'>
             <li className='hover:text-[#B4020A] text-[16px] font-semibold text-[#1034A6]'>
                 Home
             </li>
